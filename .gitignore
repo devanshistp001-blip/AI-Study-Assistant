@@ -1,0 +1,28 @@
+# Dependencies
+**/node_modules/
+
+# Build output
+frontend/dist/
+backend/dist/
+coverage/
+
+# Environment files and local overrides
+.env
+.env.*
+!.env.example
+
+# Logs
+*.log
+npm-debug.log*
+
+# Local editor and OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Private keys and credentials
+*.pem
+*.key
+*-credentials.json
+*service-account*.json
